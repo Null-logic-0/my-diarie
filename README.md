@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+My Diarie
 
-## Getting Started
+My Diarie is a social media platform built with Next.js and Tailwind CSS, allowing users to share, comment, and engage with content in a community-driven environment. Users can create posts, share images and media, and interact with other users through voting and commenting—all without the need to sign up.
 
-First, run the development server:
+Key Features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    Next.js: Server-side rendering (SSR) for fast page loads and SEO optimization.
+    Tailwind CSS: Utility-first CSS framework providing a clean and modern design.
+    Cloudinary: Seamless media storage and management for uploading and displaying images and videos.
+    Better-SQLite3: Local, efficient database management for handling content and user interactions.
+    
+Technologies Used:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Frontend: Next.js, Tailwind CSS
+    Backend: Better-SQLite3 for local data storage
+    Media Storage: Cloudinary for managing and serving media files
+    
+Features:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+    Post Creation: Users can create posts with text, images, and media content.
+    Voting System: Content can be upvoted or downvoted, allowing the community to engage with posts.
+    Comments: Users can comment on posts to start discussions or provide feedback.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    
+![Screenshot 2025-03-08 at 16 40 53](https://github.com/user-attachments/assets/8ed005f9-c595-403d-b4f6-dbcfef608bef)
+![Screenshot 2025-03-08 at 16 40 39](https://github.com/user-attachments/assets/4f579f7d-cf76-4fb2-af62-902658a05873)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+https://github.com/user-attachments/assets/66be408c-04dd-400e-8e2a-908d89196c0e
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
